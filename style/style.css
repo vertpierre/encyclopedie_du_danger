@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Compagnon Bold";
+  font-display: swap;
+  src: url("../font/Compagnon-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Compagnon Italic";
+  font-display: swap;
+  src: url("../font/Compagnon-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Compagnon Light";
+  font-display: swap;
+  src: url("../font/Compagnon-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Compagnon Medium";
+  font-display: swap;
+  src: url("../font/Compagnon-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Compagnon Roman";
+  font-display: swap;
+  src: url("../font/Compagnon-Roman.woff2") format("woff2");
+}
+
+*,
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+  font-family: "Compagnon Light";
+}
+
+em {
+  font-style: normal;
+  font-family: "Compagnon Roman";
+}
+
+i {
+  font-family: "Compagnon Italic";
+}
+
+a {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px dotted red;
+  padding: 0 1rem 0 1rem;
+}
+
+header h1,
+header p {
+  border: 1px solid green;
+  height: min-content;
+}
