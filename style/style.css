@@ -48,10 +48,6 @@ i {
   font-family: "Compagnon Italic";
 }
 
-a {
-  text-decoration: underline;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -64,4 +60,38 @@ header h1,
 header p {
   border: 1px solid green;
   height: min-content;
+}
+
+/*-------- PAGE PROJET --------*/
+
+nav {
+  width: 17vw;
+  font-size: 0.9rem;
+  border-right: 1px solid black;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav em,p {
+  line-height: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li p {
+  line-height: 0.3rem;
+}
+
+#nav_links p {
+  line-height: 0;
 }
