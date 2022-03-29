@@ -6,8 +6,6 @@
   <title>Parcours</title>
   <link href="style/css.css" type="text/css" rel="stylesheet">
   <link href="style/magnific.css" type="text/css" rel="stylesheet">
-
-
 </head>
 
 <body>
@@ -138,7 +136,6 @@
         <header>
           <h2 class="change-color"><?php echo $y['place_name']; ?></h2>
 
-
           <ul class="meta change-color change-border">
             <li><a target="_blank" class="place-url change-color" href="<?php echo $y['place_url']; ?>"> Site web du lieu</a></li>
             <li>Statut: <?php echo $y['status']; ?></li>
@@ -153,7 +150,6 @@
             <li>samedi: <?php echo $y['saturday']; ?></li>
             <li>dimanche: <?php echo $y['sunday']; ?></li>
             <br />
-
             <li><a target="_blank" class="more change-color" href="<?php echo $y['more']; ?>"> + d'infos pratiques</a></li>
             <li> Prix: <?php echo $y['prix']; ?></li>
             <li>Date de la visite: <?php echo $y['date']; ?></li>
@@ -161,29 +157,22 @@
             <?php // foreach ($tags as $tag) {echo $tag.' ';}
             ?>
             <!-- </li> -->
-
           </ul>
 
         </header>
-
 
         <div class="short-description change-color">
           <?php echo $y[0]; ?>
         </div>
 
-
-
         <p class="unwrap change-color change-border">English version</p>
-
-
 
         <div class="description change-color">
           <?php echo $y[1]; ?>
         </div>
 
-
-
         <div class="videos">
+
           <?php
           if (isset($y['extra_links']['main_video'])) {
             $url = $y['extra_links']['main_video'];
@@ -205,8 +194,6 @@
           ?>
         </div>
 
-
-
         <div class="images">
           <?php
           $imgdir = dirname($project) . "/images/"; // need to be polished
@@ -218,23 +205,14 @@
         </div>
       </section>
 
-
-
-
     <?php } ?>
 
-
-
+    <script src="../../js/jquery-1.11.3.min.js"></script>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/isotope.pkgd.min.js"></script>
+    <script src="../../js/magnific.js"></script>
+    <script src="../../js/unveil.js"></script>
+    <script src="../../js/main_2.js"></script>
 </body>
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/main.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/magnific.js"></script>
-<script src="js/unveil.js"></script>
-<script src="js/main_2.js"></script>
-
-
-
-
 
 </html>
