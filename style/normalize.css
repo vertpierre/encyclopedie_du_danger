@@ -161,6 +161,14 @@ sup {
 	 ========================================================================== */
 
 /**
+   * Remove margin.
+   */
+
+figure {
+  margin: 0;
+}
+
+/**
    * Remove the border on images inside links in IE 10.
    */
 
