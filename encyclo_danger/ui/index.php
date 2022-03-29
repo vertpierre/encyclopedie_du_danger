@@ -207,12 +207,12 @@
 
     <?php } ?>
 
-    <script src="../../js/jquery-1.11.3.min.js"></script>
-    <script src="../../js/main.js"></script>
-    <script src="../../js/isotope.pkgd.min.js"></script>
-    <script src="../../js/magnific.js"></script>
-    <script src="../../js/unveil.js"></script>
-    <script src="../../js/main_2.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/magnific.js"></script>
+    <script src="js/unveil.js"></script>
+    <script src="js/main_bis.js"></script>
 </body>
 
 </html>
