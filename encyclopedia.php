@@ -19,167 +19,208 @@
 </head>
 
 <body>
-  <nav>
-    <header>
-      <h1>
-        <em>une encyclopédie du danger</em>
-      </h1>
-    </header>
+  <div class="container-global">
+    <nav>
+      <header>
+        <h1>
+          <em>une encyclopédie du danger</em>
+        </h1>
+      </header>
 
-    <div data-simplebar class="liste">
-      <ul>
-        <li>
-          <p><a href="">derrière la porte</a></p>
-        </li>
-        <li>
-          <p><a href="">ce qu'on ne voit pas</a></p>
-        </li>
-        <li>
-          <p><a href="">le hors-champ</a></p>
-        </li>
-        <li>
-          <p><a href="">le regard</a></p>
-        </li>
-        <li>
-          <p><a href="">être vu</a></p>
-        </li>
-        <li>
-          <p><a href="">le reflet</a></p>
-        </li>
-        <li>
-          <p><a href="">le poison</a></p>
-        </li>
-        <li>
-          <p><a href="">la piqure</a></p>
-        </li>
-        <li>
-          <p><a href="">le piège</a></p>
-        </li>
-        <li>
-          <p><a href="">chasseur et proie</a></p>
-        </li>
-        <li>
-          <p><a href="">prédateur et victime</a></p>
-        </li>
-        <li>
-          <p><a href="">arme à feu</a></p>
-        </li>
-        <li>
-          <p><a href="">chasseur et chassé</a></p>
-        </li>
-        <li>
-          <p><a href="">le monstre</a></p>
-        </li>
-        <li>
-          <p><a href="">derrière la porte</a></p>
-        </li>
-        <li>
-          <p><a href="">ce qu'on ne voit pas</a></p>
-        </li>
-        <li>
-          <p><a href="">le hors-champ</a></p>
-        </li>
-        <li>
-          <p><a href="">le regard</a></p>
-        </li>
-        <li>
-          <p><a href="">être vu</a></p>
-        </li>
-        <li>
-          <p><a href="">le reflet</a></p>
-        </li>
-        <li>
-          <p><a href="">le poison</a></p>
-        </li>
-        <li>
-          <p><a href="">la piqure</a></p>
-        </li>
-        <li>
-          <p><a href="">le piège</a></p>
-        </li>
-        <li>
-          <p><a href="">chasseur et proie</a></p>
-        </li>
-        <li>
-          <p><a href="">prédateur et victime</a></p>
-        </li>
-        <li>
-          <p><a href="">arme à feu</a></p>
-        </li>
-        <li>
-          <p><a href="">chasseur et chassé</a></p>
-        </li>
-        <li>
-          <p><a href="">le monstre</a></p>
-        </li>
-        <li>
-          <p><a href="">derrière la porte</a></p>
-        </li>
-        <li>
-          <p><a href="">ce qu'on ne voit pas</a></p>
-        </li>
-        <li>
-          <p><a href="">le hors-champ</a></p>
-        </li>
-        <li>
-          <p><a href="">le regard</a></p>
-        </li>
-        <li>
-          <p><a href="">être vu</a></p>
-        </li>
-        <li>
-          <p><a href="">le reflet</a></p>
-        </li>
-        <li>
-          <p><a href="">le poison</a></p>
-        </li>
-        <li>
-          <p><a href="">la piqure</a></p>
-        </li>
-        <li>
-          <p><a href="">le piège</a></p>
-        </li>
-        <li>
-          <p><a href="">chasseur et proie</a></p>
-        </li>
-        <li>
-          <p><a href="">prédateur et victime</a></p>
-        </li>
-        <li>
-          <p><a href="">arme à feu</a></p>
-        </li>
-        <li>
-          <p><a href="">chasseur et chassé</a></p>
-        </li>
-        <li>
-          <p><a href="">le monstre</a></p>
-        </li>
-      </ul>
+      <div data-simplebar class="liste">
+        <ul>
+          <li>
+            <p><a href="">derrière la porte</a></p>
+          </li>
+          <li>
+            <p><a href="">ce qu'on ne voit pas</a></p>
+          </li>
+          <li>
+            <p><a href="">le hors-champ</a></p>
+          </li>
+          <li>
+            <p><a href="">le regard</a></p>
+          </li>
+          <li>
+            <p><a href="">être vu</a></p>
+          </li>
+          <li>
+            <p><a href="">le reflet</a></p>
+          </li>
+          <li>
+            <p><a href="">le poison</a></p>
+          </li>
+          <li>
+            <p><a href="">la piqure</a></p>
+          </li>
+          <li>
+            <p><a href="">le piège</a></p>
+          </li>
+          <li>
+            <p><a href="">chasseur et proie</a></p>
+          </li>
+          <li>
+            <p><a href="">prédateur et victime</a></p>
+          </li>
+          <li>
+            <p><a href="">arme à feu</a></p>
+          </li>
+          <li>
+            <p><a href="">chasseur et chassé</a></p>
+          </li>
+          <li>
+            <p><a href="">le monstre</a></p>
+          </li>
+          <li>
+            <p><a href="">derrière la porte</a></p>
+          </li>
+          <li>
+            <p><a href="">ce qu'on ne voit pas</a></p>
+          </li>
+          <li>
+            <p><a href="">le hors-champ</a></p>
+          </li>
+          <li>
+            <p><a href="">le regard</a></p>
+          </li>
+          <li>
+            <p><a href="">être vu</a></p>
+          </li>
+          <li>
+            <p><a href="">le reflet</a></p>
+          </li>
+          <li>
+            <p><a href="">le poison</a></p>
+          </li>
+          <li>
+            <p><a href="">la piqure</a></p>
+          </li>
+          <li>
+            <p><a href="">le piège</a></p>
+          </li>
+          <li>
+            <p><a href="">chasseur et proie</a></p>
+          </li>
+          <li>
+            <p><a href="">prédateur et victime</a></p>
+          </li>
+          <li>
+            <p><a href="">arme à feu</a></p>
+          </li>
+          <li>
+            <p><a href="">chasseur et chassé</a></p>
+          </li>
+          <li>
+            <p><a href="">le monstre</a></p>
+          </li>
+          <li>
+            <p><a href="">derrière la porte</a></p>
+          </li>
+          <li>
+            <p><a href="">ce qu'on ne voit pas</a></p>
+          </li>
+          <li>
+            <p><a href="">le hors-champ</a></p>
+          </li>
+          <li>
+            <p><a href="">le regard</a></p>
+          </li>
+          <li>
+            <p><a href="">être vu</a></p>
+          </li>
+          <li>
+            <p><a href="">le reflet</a></p>
+          </li>
+          <li>
+            <p><a href="">le poison</a></p>
+          </li>
+          <li>
+            <p><a href="">la piqure</a></p>
+          </li>
+          <li>
+            <p><a href="">le piège</a></p>
+          </li>
+          <li>
+            <p><a href="">chasseur et proie</a></p>
+          </li>
+          <li>
+            <p><a href="">prédateur et victime</a></p>
+          </li>
+          <li>
+            <p><a href="">arme à feu</a></p>
+          </li>
+          <li>
+            <p><a href="">chasseur et chassé</a></p>
+          </li>
+          <li>
+            <p><a href="">le monstre</a></p>
+          </li>
+        </ul>
 
-      <footer>
-        <p><a href="http://" target="_blank">télécharger l'encyclopédie</a></p>
-        <p><i>DNMADE 3</i> <a href="http://" target="_blank">Boulogne</a> <i>et la</i> <a href="http://" target="_blank">HEAD</a></p>
-      </footer>
-    </div>
-  </nav>
-
-  <div class="gallery">
-    <div class="surveillance">
-      <div class="images">
-        <?php
-        $images = glob("./import/surveillance" . "{*.jpg,*.jpeg,*.gif,*.png,*.svg}", GLOB_BRACE);
-        foreach ($images as $image) {
-          echo "<a class='image-link' href='$image'><img src='$image' /></a>";
-        }
-        ?>
+        <footer>
+          <p><a href="http://" target="_blank">télécharger l'encyclopédie</a></p>
+          <p><i>DNMADE 3</i> <a href="http://" target="_blank">Boulogne</a> <i>et la</i> <a href="http://" target="_blank">HEAR</a></p>
+        </footer>
       </div>
-    </div>
-  </div>
+    </nav>
 
-  <script src="./js/simplebar.js"></script>
-  <script>
-    new SimpleBar(document.getElementById("myElement"));
-  </script>
+    <div data-simplebar class="container-galleries">
+
+      <?php
+
+      // Include Libs and Functions
+      require_once "spyc.php";
+      require_once "functions.php";
+
+      // New yaml instance
+      $spyc = new Spyc();
+
+      // Recursively read the chosen directory for yaml content in .md
+      $directory = "import/categories/";
+      $ignored = "import/categories/README.md";
+      $projects = rglob($directory . "{*.md}", GLOB_BRACE);
+      $projectNbr = 0;
+
+      // Sort projects, most recent first
+      usort($projects, create_function('$a,$b', 'return filemtime($b) - filemtime($a);'));
+
+      foreach ($projects as $project) {
+        $projectNbr++;
+        if ($project == $ignored) {
+          return;
+        }
+        $y = Spyc::YAMLLoad($project);
+      ?>
+        <section class="category">
+          <div>
+            <h3><em><?php echo $y['place_name']; ?></em></h3>
+          </div>
+          <div data-simplebar class="container-scroll">
+            <div class="container-images">
+              <?php
+              $imgdir = dirname($project) . "/images/"; // need to be polished
+              $images = glob($imgdir . "{*.jpg,*.jpeg,*.gif,*.png,*.svg}", GLOB_BRACE);
+              $arrayPosJustify = array("flex-start", "center", "flex-end");
+              $arrayPosAlign = array("flex-start", "center", "flex-end");
+              foreach ($images as $image) {
+                $randPosJustify = array_rand($arrayPosJustify, 1);
+                $randPosAlign = array_rand($arrayPosAlign, 1);
+                echo "<div style='justify-content:$arrayPosJustify[$randPosJustify];align-items:$arrayPosAlign[$randPosAlign];' class='images'><img src='$image' /></div>";
+              }
+              ?>
+            </div>
+          </div>
+        </section>
+
+      <?php } ?>
+
+      <script src="js/simplebar.js"></script>
+      <script>
+        new SimpleBar(document.getElementById("myElement"));
+      </script>
+      <script src="js/imagesloaded.min.js"></script>
+      <script src="js/magnific.js"></script>
+      <script src="js/unveil.js"></script>
 </body>
 
 </html>
