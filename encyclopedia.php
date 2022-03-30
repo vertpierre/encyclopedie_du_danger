@@ -158,7 +158,7 @@
 
       <footer>
         <p><a href="http://" target="_blank">télécharger l'encyclopédie</a></p>
-        <p><i>DNMADE 3</i> <a href="http://" target="_blank">Boulogne</a> <i>et la</i> <a href="http://" target="_blank">HEAD</a></p>
+        <p><i>DNMADE 3</i> <a href="http://" target="_blank">Boulogne</a> <i>et la</i> <a href="http://" target="_blank">HEAR</a></p>
       </footer>
     </div>
   </nav>

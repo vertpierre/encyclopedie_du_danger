@@ -10,16 +10,22 @@
   </head>
   <body>
     <header>
-      <p><i>DNMADE 3</i> <a href="http://" target="_blank">Boulogne</a> <i>et la</i> <a href="http://" target="_blank">HEAD</a></p>
+      <p><i>DNMADE 3</i> <a href="http://" target="_blank">Boulogne</a> <i>et la</i> <a href="http://" target="_blank">HEAR</a></p>
       <h1>
-        <em><a href="encyclopedia.php">une encyclopédie du danger</a></em>
+        <em><a href="./encyclopedia.php">une encyclopédie du danger</a></em>
       </h1>
       <p><a href="./pdf.html">télécharger l'encyclopédie</a></p>
     </header>
-    <div class="container-index">
-      <figure>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif" />
-      </figure>
+    <div id="container-index">
     </div>
+
+    <script>
+      function changeBg(){
+        const num_alea = Math.floor(Math.random() * 10)+1;
+        const bg = document.getElementById("container-index")
+        bg.style.backgroundImage = "url('./import/homepage_images/"+num_alea+".jpg')";
+      }
+      setInterval(changeBg, 5000)
+    </script>
   </body>
 </html>
