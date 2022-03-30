@@ -120,10 +120,12 @@ header p {
   height: min-content;
 }
 
-.container-index {
+#container-index {
   width: 100%;
   height: calc(100vh - 3rem);
   overflow: hidden;
+  background-image: url("../import/homepage_images/1.jpg");
+  background-size: cover;
 }
 
 /**-------- PAGE ENCYCLOPEDIA --------**/
