@@ -23,7 +23,7 @@
     <nav>
       <header>
         <h1>
-          <em>une encyclopédie du danger</em>
+          <a href="index.html"><i>retour index</i></a>
         </h1>
       </header>
 

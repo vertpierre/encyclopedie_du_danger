@@ -9,26 +9,50 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="menu-index">
-      <div class="contributeur"><p>contributeurs</p></div>
-      <div class="encyclopedia">
-        <h1>
-          <em><a href="encyclopedia.php">une encyclopédie du danger</a></em>
-        </h1>
-      </div>
-      <div class="pdf">
-        <p><a href="pdf.html">télécharger l'encyclopédie</a></p>
-      </div>
-    </header>
-    <div id="container-index"></div>
+    <div class="container-index">
+      <header class="menu-index">
+        <div class="contributeur">
+          <p onclick="toggleContrib()">
+            <strong><i>contributeurs</i></strong>
+          </p>
+        </div>
+        <div class="encyclopedia">
+          <h1>
+            <em><a href="encyclopedia.php">une encyclopédie du danger</a></em>
+          </h1>
+        </div>
+        <div class="pdf">
+          <p>
+            <a href="pdf.html"><i>télécharger l'encyclopédie</i></a>
+          </p>
+        </div>
+      </header>
 
-    <script>
-      function changeBg() {
-        const num_alea = Math.floor(Math.random() * 10) + 1;
-        const bg = document.getElementById("container-index");
-        bg.style.backgroundImage = "url('import/homepage_images/" + num_alea + ".jpg')";
-      }
-      setInterval(changeBg, 5000);
-    </script>
+      <nav id="menu-contrib">
+        <div class="liste">
+          <ul>
+            <li>
+              <p>derrière la porte</p>
+            </li>
+            <li>
+              <p>ce qu'on ne voit pas</p>
+            </li>
+            <li>
+              <p>le hors-champ</p>
+            </li>
+          </ul>
+
+          <footer>
+            <p>
+              <i><a href="./pdf.html" target="_blank">télécharger l'encyclopédie</a></i>
+            </p>
+          </footer>
+        </div>
+      </nav>
+
+      <div id="index-images"></div>
+    </div>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

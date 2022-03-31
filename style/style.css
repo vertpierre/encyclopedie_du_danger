@@ -49,12 +49,16 @@ em a {
   text-decoration: none;
 }
 
-i, em a:hover {
+i,
+em a:hover {
   font-family: "Lucette Italic";
 }
 
+strong,
 a {
+  font-weight: normal;
   cursor: crosshair;
+  text-decoration: underline;
 }
 
 h1,
@@ -115,22 +119,27 @@ nav .simplebar-track {
 /**-------- PAGE INDEX --------**/
 
 header {
+  position: relative;
   height: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
   border-bottom: 1px solid black;
+  background-color: white;
 }
 
-#container-index {
+#index-images {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
   width: 100%;
-  height: calc(100vh - 3rem);
+  height: calc(100vh - 2rem);
   overflow: hidden;
   background-image: url("../import/homepage_images/1.jpg");
   background-size: cover;
   background-color: black;
-  filter: contrast(2) grayscale(1);
 }
 
 .menu-index div {
@@ -146,6 +155,18 @@ header {
 
 .pdf {
   justify-content: flex-end;
+}
+
+.container-index nav {
+  position: relative;
+  left: calc(-210px - 10vw);
+  bottom: 0;
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.contributeur p:hover > .container-index nav {
+  left: 0;
 }
 
 /**-------- PAGE ENCYCLOPEDIA + PDF --------**/
