@@ -157,16 +157,13 @@ header {
   justify-content: flex-end;
 }
 
-.container-index nav {
+#menu-contrib {
+  width: calc(300px + 15vw);
   position: relative;
-  left: calc(-210px - 10vw);
+  left: calc(-310px - 15vw);
   bottom: 0;
   background-color: white;
-  transition: all 0.4s ease-in-out;
-}
-
-.contributeur p:hover > .container-index nav {
-  left: 0;
+  transition: all 0.25s ease-in-out;
 }
 
 /**-------- PAGE ENCYCLOPEDIA + PDF --------**/
@@ -188,22 +185,23 @@ nav {
   justify-content: space-between;
 }
 
-nav em,
-p {
-  line-height: 0;
-}
-
+.text-contrib,
 ul {
   list-style: none;
   padding: 0 1rem;
   margin: 0;
 }
 
+.text-contrib {
+  line-height: 1.3rem;
+}
+
 li a {
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover,
+li a:active {
   font-family: "Lucette Italic";
 }
 
@@ -227,6 +225,15 @@ footer {
 .container-galleries {
   padding: 1rem 0;
   height: calc(100vh - 2rem);
+}
+
+.container-intro-encyclo {
+  width: 100%;
+}
+
+.intro-encyclo {
+  margin: 1rem;
+  line-height: 1.3rem;
 }
 
 .container-scroll-x {
@@ -262,5 +269,6 @@ footer {
 iframe {
   border: 0;
   width: 100%;
-  height: 100%;
+  height: calc(100% - 0.4rem);
+  margin-top: 0.4rem;
 }

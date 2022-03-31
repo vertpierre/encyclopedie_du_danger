@@ -1,10 +1,10 @@
 :root {
-  --color-fill-darker: hsl(0, 0%, 0%);
+  --color-fill-darker: hsla(0, 0%, 0%);
   --color-fill-dark: hsl(0, 0%, 100%);
   --toolbar-bg-color: hsl(0, 0%, 100%);
   --doorhanger-bg-color: hsl(0, 0%, 100%);
   --color-fill-light: hsl(0, 0%, 100%);
-  --color-fill-lighter: hsl(0, 0%, 0%);
+  --color-fill-lighter: hsla(0, 0%, 0%);
   --color-fill-lightest: hsl(0, 0%, 100%);
   --background-link: hsl(0, 0%, 100%);
   --color-none: hsla(0, 0%, 0%, 0);
@@ -20,6 +20,19 @@ p,
 input,
 select {
   color: var(--color-fill-darker) !important;
+}
+
+#toolbarContainer {
+  height: 3.77rem !important;
+}
+
+#sidebarContent,
+#thumbnailView {
+  background-color: var(--color-fill-lightest) !important;
+}
+
+#loadingBar {
+  display: none;
 }
 
 ::-webkit-scrollbar {
@@ -142,7 +155,7 @@ html[dir="ltr"] .findbar .splitToolbarButton > .findNext,
 .treeItemToggler:hover + a,
 .treeItemToggler:hover ~ .treeItems,
 .treeItem > a:hover {
-  border-radius: 0.4rem;
+  border-radius: var(--stroke-weight);
 }
 
 html[dir="ltr"] #toolbarViewerRight,

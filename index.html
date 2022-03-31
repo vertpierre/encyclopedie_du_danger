@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/normalize.css" />
+    <link href="style/simplebar.css" rel="stylesheet" />
     <link rel="stylesheet" href="style/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="container-index">
+    <div class="container -index">
       <header class="menu-index">
         <div class="contributeur">
           <p onclick="toggleContrib()">
-            <strong><i>contributeurs</i></strong>
+            <strong><i>informations</i></strong>
           </p>
         </div>
         <div class="encyclopedia">
@@ -28,31 +29,74 @@
         </div>
       </header>
 
-      <nav id="menu-contrib">
+      <nav data-simplebar id="menu-contrib">
         <div class="liste">
-          <ul>
-            <li>
-              <p>derrière la porte</p>
-            </li>
-            <li>
-              <p>ce qu'on ne voit pas</p>
-            </li>
-            <li>
-              <p>le hors-champ</p>
-            </li>
-          </ul>
+          <div class="container-intro-encyclo">
+            <div class="intro-encyclo">
+              <h1>
+                <i>Une encyclopédie du danger</i>
+                <br />
+                <i></i>
+                Une édition protéïforme et subjective qui évolue au fil des workshops
+              </h1>
+              <div class="para-intro">
+                <p>
+                  Qu’est-ce qui, dans une image, fait, dit, crie « Danger » ?
+                  <br />
+                  Comment faire une encyclopédie à plusieurs en quelques jours ?
+                  <br />
+                  Comment contribuer et faire grossir, muter, évoluer, cette encyclopédie ?
+                  <br />
+                  Et surtout comment le danger se manifeste-t-il dans les images, qu’il s’agisse d’une page de BD, une case, une scène tirée d’un film, un
+                  album, un schéma scientifique, une photo anonyme, une carte postale, une peinture religieuse, une affiche de propagande... ?
+                  <br />
+                  Y a-t-il des thèmes récurrents qui se dégagent de ce corpus hétéroclite ?
+                  <br />
+                  Que racontent ces thèmes du rapport au danger qu’entretiennent les participants des workshop ?
+                  <br />
+                  Que disent ces images de leurs références, leurs centres d’intêret, leur(s) imaginaire(s) collectif(s) ?
+                  <br />
+                  Et quelle histoire du danger raconte le chemin de fer de chaque publication ?
+                </p>
+                <p>
+                  Ce projet d’édition collaborative a été initié en 2021 par Pauline Barzilaï avec les étudiants en illustration de la Hear, Strasbourg, qui ont
+                  eu 4 jours pour réaliser la première version de cette encyclopédie visuelle du danger, une publication d’une centaine de pages, regroupant
+                  environ 400 images et tirée à 20 exemplaires. Un atlas d’images qui porte en elle-même l’ambivalence d’être nommée encyclopédie et d’être
+                  faite par des amateurs, de poser des questions sans forcément avoir la réponse, d’avoir un nom que contredira sa forme et son fond, et qui est
+                  singulièrement subjective, car portée par un groupe donné à un moment donné.
+                  <br />
+                  3 mois plus tard, en mars 2022, ce sont les étudiants du DNMADE 3 Graphisme augmenté du lycée Jacques Prévert à Boulogne-Billancourt qui
+                  s’emparent du sujet, et travaillent à un nouveau volume imprimé de l’encyclopédie, ainsi qu’à la version web du projet que vous avez sous les
+                  yeux, qui permet d’archiver les images et de diffuser les différentes versions de l’encyclopédie sous forme de pdf téléchargeables.
+                </p>
+                <p>Ce projet éditorial a l’ambition de continuer à évoluer à travers d’autres workshops et ateliers, avec des participants de tout âges.</p>
+                <p>Vous pourrez retrouver les légendes des images dans les pdf.</p>
+              </div>
+            </div>
+          </div>
 
-          <footer>
+          <div class="text-contrib">
             <p>
-              <i><a href="./pdf.html" target="_blank">télécharger l'encyclopédie</a></i>
+              <i>Workshops</i>
+              <br />
+              Décembre 2021 : Hear, années 3 et 4 illustration, Strasbourg
+              <br />
+              Mars 2022 : Lycée Jacques Prévert, DNMADE 3 Graphisme augmenté, Boulogne- Billancourt
+              <br />
+              Avril 2022 : Collège AG Monnet, classes de 4e, Champeix
+              <br />
             </p>
-          </footer>
+          </div>
         </div>
       </nav>
 
       <div id="index-images"></div>
     </div>
 
+    <script src="js/simplebar.js"></script>
+    <script>
+      new SimpleBar(document.getElementById("myElement"));
+    </script>
     <script src="js/main.js"></script>
   </body>
 </html>

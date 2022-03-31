@@ -23,17 +23,86 @@
     <nav>
       <header>
         <h1>
-          <a href="index.html"><i>retour index</i></a>
+          <a href="index.html"><i>🡐 retour index</i></a>
         </h1>
       </header>
 
       <div data-simplebar class="liste">
         <ul>
           <li>
-            <p><a href="">derrière la porte</a></p>
+            <p><a href="">la mort</a></p>
           </li>
           <li>
-            <p><a href="">ce qu'on ne voit pas</a></p>
+            <p><a href="">la guerre</a></p>
+          </li>
+          <li>
+            <p><a href="">la religion</a></p>
+          </li>
+          <li>
+            <p><a href="">les enfers</a></p>
+          </li>
+          <li>
+            <p><a href="">le feu</a></p>
+          </li>
+          <li>
+            <p><a href="">les catastrophes naturelles</a></p>
+          </li>
+          <li>
+            <p><a href="">les cris</a></p>
+          </li>
+          <li>
+            <p><a href="">les monstres</a></p>
+          </li>
+          <li>
+            <p><a href="">le sommeil</a></p>
+          </li>
+          <li>
+            <p><a href="">juste derrière</a></p>
+          </li>
+          <li>
+            <p><a href="">l'échelle</a></p>
+          </li>
+          <li>
+            <p><a href="">l'arme</a></p>
+          </li>
+          <li>
+            <p><a href="">le masque</a></p>
+          </li>
+          <li>
+            <p><a href="">la fuite</a></p>
+          </li>
+          <li>
+            <p><a href="">la chute</a></p>
+          </li>
+          <li>
+            <p><a href="">le volcan</a></p>
+          </li>
+          <li>
+            <p><a href="">la maladie</a></p>
+          </li>
+          <li>
+            <p><a href="">insoupçonné</a></p>
+          </li>
+          <li>
+            <p><a href="">les explosions</a></p>
+          </li>
+          <li>
+            <p><a href="">la famille</a></p>
+          </li>
+          <li>
+            <p><a href="">en joue</a></p>
+          </li>
+          <li>
+            <p><a href="">prédateur</a></p>
+          </li>
+          <li>
+            <p><a href="">le poison</a></p>
+          </li>
+          <li>
+            <p><a href="">la lame</a></p>
+          </li>
+          <li>
+            <p><a href="">être vu</a></p>
           </li>
           <li>
             <p><a href="">le hors-champ</a></p>
@@ -42,129 +111,17 @@
             <p><a href="">le regard</a></p>
           </li>
           <li>
-            <p><a href="">être vu</a></p>
-          </li>
-          <li>
-            <p><a href="">le reflet</a></p>
-          </li>
-          <li>
-            <p><a href="">le poison</a></p>
-          </li>
-          <li>
-            <p><a href="">la piqure</a></p>
-          </li>
-          <li>
-            <p><a href="">le piège</a></p>
-          </li>
-          <li>
-            <p><a href="">chasseur et proie</a></p>
-          </li>
-          <li>
-            <p><a href="">prédateur et victime</a></p>
-          </li>
-          <li>
-            <p><a href="">arme à feu</a></p>
-          </li>
-          <li>
-            <p><a href="">chasseur et chassé</a></p>
-          </li>
-          <li>
-            <p><a href="">le monstre</a></p>
+            <p><a href="">surveillance</a></p>
           </li>
           <li>
             <p><a href="">derrière la porte</a></p>
           </li>
           <li>
-            <p><a href="">ce qu'on ne voit pas</a></p>
-          </li>
-          <li>
-            <p><a href="">le hors-champ</a></p>
-          </li>
-          <li>
-            <p><a href="">le regard</a></p>
-          </li>
-          <li>
-            <p><a href="">être vu</a></p>
-          </li>
-          <li>
-            <p><a href="">le reflet</a></p>
-          </li>
-          <li>
-            <p><a href="">le poison</a></p>
-          </li>
-          <li>
-            <p><a href="">la piqure</a></p>
-          </li>
-          <li>
-            <p><a href="">le piège</a></p>
-          </li>
-          <li>
-            <p><a href="">chasseur et proie</a></p>
-          </li>
-          <li>
-            <p><a href="">prédateur et victime</a></p>
-          </li>
-          <li>
-            <p><a href="">arme à feu</a></p>
-          </li>
-          <li>
-            <p><a href="">chasseur et chassé</a></p>
-          </li>
-          <li>
-            <p><a href="">le monstre</a></p>
-          </li>
-          <li>
-            <p><a href="">derrière la porte</a></p>
-          </li>
-          <li>
-            <p><a href="">ce qu'on ne voit pas</a></p>
-          </li>
-          <li>
-            <p><a href="">le hors-champ</a></p>
-          </li>
-          <li>
-            <p><a href="">le regard</a></p>
-          </li>
-          <li>
-            <p><a href="">être vu</a></p>
-          </li>
-          <li>
-            <p><a href="">le reflet</a></p>
-          </li>
-          <li>
-            <p><a href="">le poison</a></p>
-          </li>
-          <li>
-            <p><a href="">la piqure</a></p>
-          </li>
-          <li>
-            <p><a href="">le piège</a></p>
-          </li>
-          <li>
-            <p><a href="">chasseur et proie</a></p>
-          </li>
-          <li>
-            <p><a href="">prédateur et victime</a></p>
-          </li>
-          <li>
-            <p><a href="">arme à feu</a></p>
-          </li>
-          <li>
-            <p><a href="">chasseur et chassé</a></p>
-          </li>
-          <li>
-            <p><a href="">le monstre</a></p>
-          </li>
         </ul>
-
-        <footer>
-          <p><i><a href="./pdf.html" target="_blank">télécharger l'encyclopédie</a></i></p>
-        </footer>
       </div>
     </nav>
 
     <div data-simplebar class="container-galleries">
-
       <?php
 
       // Include Libs and Functions
