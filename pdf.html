@@ -18,27 +18,26 @@
         </header>
 
         <div class="liste">
+          <ul>
+            <li>
+              <p><a onclick='changePDF("pdf_viewer/web/viewer.html?file=%2Fencyclopedie_du_danger/import/pdf/fanzine.pdf")'>tome 1 (HEAR)</a></p>
+            </li>
+            <li>
+              <p><a onclick='changePDF("pdf_viewer/web/viewer.html?file=%2Fencyclopedie_du_danger/import/pdf/pierre_roussel_memoire.pdf")'>tome 2 (DNMADE Prevert)</a></p>
+            </li>
+          </ul>
+
           <footer>
-            <p><a href="http://" target="_blank">télécharger l'encyclopédie</a></p>
-            <p><i>DNMADE 3</i> <a href="http://" target="_blank">Boulogne</a> <i>et la</i> <a href="http://" target="_blank">HEAR</a></p>
+            <p><i><a href="./index.html">retour à l'encyclopédie</a></i></p>
           </footer>
         </div>
       </nav>
 
-      <div class="container-scroll-y">
-        <div class="container-pdf">
-          <iframe class="pdf-viewer" src="./pdf_viewer/web/viewer.html?file=%2Fimport%2Fpdf%2Fpierre_roussel_memoire.pdf"></iframe>
-          <iframe class="pdf-viewer" src="./pdf_viewer/web/viewer.html?file=%2Fimport%2Fpdf%2Fpierre_roussel_memoire.pdf"></iframe>
-        </div>
+      <div class="container-pdf">
+        <iframe id="pdf-viewer" src="pdf_viewer/web/viewer.html?file=%2Fencyclopedie_du_danger/import/pdf/pierre_roussel_memoire.pdf"></iframe>
       </div>
     </div>
 
-    <script src="js/simplebar.js"></script>
-    <script>
-      new SimpleBar(document.getElementById("myElement"));
-    </script>
-    <script src="js/imagesloaded.min.js"></script>
-    <script src="js/magnific.js"></script>
-    <script src="js/unveil.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
