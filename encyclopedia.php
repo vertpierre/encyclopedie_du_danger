@@ -195,7 +195,7 @@
           <div>
             <h3><em><?php echo $y['place_name']; ?></em></h3>
           </div>
-          <div data-simplebar class="container-scroll">
+          <div data-simplebar class="container-scroll-x">
             <div class="container-images">
               <?php
               $imgdir = dirname($project) . "/images/"; // need to be polished

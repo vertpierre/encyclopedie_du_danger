@@ -9,9 +9,36 @@
     <title>Document</title>
   </head>
   <body>
-    <nav></nav>
-    <div class="container-pdf">
-      <iframe class="pdf-viewer" src="./pdf_viewer/web/viewer.html?file=%2Fimport%2Fpdf%2Fpierre_roussel_memoire.pdf"></iframe>
+    <div class="container-global">
+      <nav>
+        <header>
+          <h1>
+            <em>télécharger les PDF</em>
+          </h1>
+        </header>
+
+        <div class="liste">
+          <footer>
+            <p><a href="http://" target="_blank">télécharger l'encyclopédie</a></p>
+            <p><i>DNMADE 3</i> <a href="http://" target="_blank">Boulogne</a> <i>et la</i> <a href="http://" target="_blank">HEAR</a></p>
+          </footer>
+        </div>
+      </nav>
+
+      <div class="container-scroll-y">
+        <div class="container-pdf">
+          <iframe class="pdf-viewer" src="./pdf_viewer/web/viewer.html?file=%2Fimport%2Fpdf%2Fpierre_roussel_memoire.pdf"></iframe>
+          <iframe class="pdf-viewer" src="./pdf_viewer/web/viewer.html?file=%2Fimport%2Fpdf%2Fpierre_roussel_memoire.pdf"></iframe>
+        </div>
+      </div>
     </div>
+
+    <script src="js/simplebar.js"></script>
+    <script>
+      new SimpleBar(document.getElementById("myElement"));
+    </script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/magnific.js"></script>
+    <script src="js/unveil.js"></script>
   </body>
 </html>

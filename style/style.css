@@ -36,6 +36,10 @@ body {
   overflow: hidden;
 }
 
+.container-global {
+  display: flex;
+}
+
 em {
   font-style: normal;
   font-family: "Compagnon Roman";
@@ -96,10 +100,6 @@ nav .simplebar-track {
   left: 2%;
 }
 
-.container-global {
-  display: flex;
-}
-
 .simplebar-content {
   padding: 0 !important;
 }
@@ -115,20 +115,32 @@ header {
   border-bottom: 1px solid black;
 }
 
-header h1,
-header p {
-  height: min-content;
-}
-
 #container-index {
   width: 100%;
   height: calc(100vh - 3rem);
   overflow: hidden;
   background-image: url("../import/homepage_images/1.jpg");
   background-size: cover;
+  background-color: black;
+  filter: contrast(2) grayscale(1);
 }
 
-/**-------- PAGE ENCYCLOPEDIA --------**/
+.menu-index div {
+  width: 28vw;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.encyclopedia {
+  justify-content: center;
+}
+
+.pdf {
+  justify-content: flex-end;
+}
+
+/**-------- PAGE ENCYCLOPEDIA + PDF --------**/
 
 nav {
   width: calc(200px + 10vw);
@@ -171,13 +183,17 @@ footer {
   padding: 1rem;
 }
 
+.container-pdf,
 .container-galleries {
-  height: calc(100vh - 2rem);
   width: calc(100vw - (200px + 10vw));
-  padding: 1rem 0;
 }
 
-.container-scroll {
+.container-galleries {
+  padding: 1rem 0;
+  height: calc(100vh - 2rem);
+}
+
+.container-scroll-x {
   width: 100%;
   overflow-y: hidden;
 }
@@ -203,22 +219,14 @@ footer {
   width: 15vw;
 }
 
-.category:last-child {
-  padding-bottom: 5rem;
-}
-
-/**-------- PAGE PDF --------**/
-
 .container-pdf {
-  width: 90vw;
-  height: 90vh;
-  display: flex;
-  padding: 3vh;
+  height: 100vh;
 }
 
 iframe {
   border: 1px solid black;
-  width: 100%;
-  height: 100%;
+  width: calc(100% - 2rem);
+  height: 70vh;
+  margin: 0 1rem 1rem 1rem;
   border-radius: 0.4rem;
 }
