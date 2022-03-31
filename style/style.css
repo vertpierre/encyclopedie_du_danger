@@ -5,9 +5,9 @@
 }
 
 @font-face {
-  font-family: "Compagnon Italic";
+  font-family: "Lucette Italic";
   font-display: swap;
-  src: url("../font/Compagnon-Italic.woff2") format("woff2");
+  src: url("../font/Lucette-Regularitalic.woff2") format("woff2");
 }
 
 @font-face {
@@ -23,26 +23,34 @@
 }
 
 @font-face {
-  font-family: "Compagnon Roman";
+  font-family: "Lucette Regular";
   font-display: swap;
-  src: url("../font/Compagnon-Roman.woff2") format("woff2");
+  src: url("../font/Lucette-Regular.woff2") format("woff2");
 }
 
 /*!-------- GLOBAL --------!*/
 
 body {
   background-color: white;
-  font-family: "Compagnon Light";
+  font-family: "Lucette Regular";
   overflow: hidden;
 }
 
 em {
   font-style: normal;
-  font-family: "Compagnon Roman";
+  text-transform: uppercase;
 }
 
-i {
-  font-family: "Compagnon Italic";
+em a {
+  text-decoration: none;
+}
+
+i, em a:hover {
+  font-family: "Lucette Italic";
+}
+
+a {
+  cursor: crosshair;
 }
 
 h1,
@@ -157,6 +165,10 @@ ul {
 
 li a {
   text-decoration: none;
+}
+
+li a:hover {
+  font-family: "Lucette Italic";
 }
 
 li p {
