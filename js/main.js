@@ -10,3 +10,6 @@ function toggleContrib() {
   if (getMenu.style.left == "0px") getMenu.style.left = "calc(-210px - 10vw)";
   else getMenu.style.left = "0px";
 }
+function changePDF(file) {
+  document.getElementById("pdf-viewer").src = file;
+}
