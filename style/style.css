@@ -30,6 +30,10 @@
 
 /*!-------- GLOBAL --------!*/
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: white;
   font-family: "Lucette Regular";
@@ -98,7 +102,7 @@ nav .simplebar-track {
 .simplebar-scrollbar::before,
 .simplebar-scrollbar.simplebar-visible::before {
   opacity: 1;
-  border-radius: 1rem;
+  border-radius: 0;
 }
 
 .category::after {
@@ -114,6 +118,10 @@ nav .simplebar-track {
 
 .simplebar-content {
   padding: 0 !important;
+}
+
+.category div {
+  padding-top: 0.1rem;
 }
 
 /**-------- PAGE INDEX --------**/
@@ -185,6 +193,7 @@ nav {
   justify-content: space-between;
 }
 
+.creators,
 .text-contrib,
 ul {
   list-style: none;
@@ -260,6 +269,7 @@ footer {
 
 .images img {
   width: 15vw;
+  height: fit-content;
 }
 
 .container-pdf {

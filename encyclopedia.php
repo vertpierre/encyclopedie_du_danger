@@ -30,91 +30,91 @@
       <div data-simplebar class="liste">
         <ul>
           <li>
-            <p><a href="">la mort</a></p>
+            <p><a href="#mort">la mort</a></p>
           </li>
           <li>
-            <p><a href="">la guerre</a></p>
+            <p><a href="#guerre">la guerre</a></p>
           </li>
           <li>
-            <p><a href="">la religion</a></p>
+            <p><a href="#religion">la religion</a></p>
           </li>
           <li>
-            <p><a href="">les enfers</a></p>
+            <p><a href="#enfer">les enfers</a></p>
           </li>
           <li>
-            <p><a href="">le feu</a></p>
+            <p><a href="#feu">le feu</a></p>
           </li>
           <li>
-            <p><a href="">les catastrophes naturelles</a></p>
+            <p><a href="#catastrophe-naturelle">les catastrophes naturelles</a></p>
           </li>
           <li>
-            <p><a href="">les cris</a></p>
+            <p><a href="#cri">le cri</a></p>
           </li>
           <li>
-            <p><a href="">les monstres</a></p>
+            <p><a href="#monstre">les monstres</a></p>
           </li>
           <li>
-            <p><a href="">le sommeil</a></p>
+            <p><a href="#sommeil">le sommeil</a></p>
           </li>
           <li>
-            <p><a href="">juste derrière</a></p>
+            <p><a href="#juste-derriere">juste derrière</a></p>
           </li>
           <li>
-            <p><a href="">l'échelle</a></p>
+            <p><a href="#echelle">l'échelle</a></p>
           </li>
           <li>
-            <p><a href="">l'arme</a></p>
+            <p><a href="#arme">l'arme</a></p>
           </li>
           <li>
-            <p><a href="">le masque</a></p>
+            <p><a href="#masque">le masque</a></p>
           </li>
           <li>
-            <p><a href="">la fuite</a></p>
+            <p><a href="#fuite">la fuite</a></p>
           </li>
           <li>
-            <p><a href="">la chute</a></p>
+            <p><a href="#chute">la chute</a></p>
           </li>
           <li>
-            <p><a href="">le volcan</a></p>
+            <p><a href="#volcan">le volcan</a></p>
           </li>
           <li>
-            <p><a href="">la maladie</a></p>
+            <p><a href="#maladie">la maladie</a></p>
           </li>
           <li>
-            <p><a href="">insoupçonné</a></p>
+            <p><a href="#insoupconne">l'insoupçonné</a></p>
           </li>
           <li>
-            <p><a href="">les explosions</a></p>
+            <p><a href="#explosion">les explosions</a></p>
           </li>
           <li>
-            <p><a href="">la famille</a></p>
+            <p><a href="#famille">la famille</a></p>
           </li>
           <li>
-            <p><a href="">en joue</a></p>
+            <p><a href="#en-joue">en joue</a></p>
           </li>
           <li>
-            <p><a href="">prédateur</a></p>
+            <p><a href="#predateur">le prédateur</a></p>
           </li>
           <li>
-            <p><a href="">le poison</a></p>
+            <p><a href="#poison">le poison</a></p>
           </li>
           <li>
-            <p><a href="">la lame</a></p>
+            <p><a href="#lame">la lame</a></p>
           </li>
           <li>
-            <p><a href="">être vu</a></p>
+            <p><a href="#etre-vu">être vu</a></p>
           </li>
           <li>
-            <p><a href="">le hors-champ</a></p>
+            <p><a href="#hors-champ">le hors-champ</a></p>
           </li>
           <li>
-            <p><a href="">le regard</a></p>
+            <p><a href="#regard">le regard</a></p>
           </li>
           <li>
-            <p><a href="">surveillance</a></p>
+            <p><a href="#surveillance">la surveillance</a></p>
           </li>
           <li>
-            <p><a href="">derrière la porte</a></p>
+            <p><a href="#porte">derrière la porte</a></p>
           </li>
           <li>
         </ul>
@@ -148,7 +148,7 @@
         $y = Spyc::YAMLLoad($project);
       ?>
         <section class="category">
-          <div>
+          <div id="<?php echo $y['place_anchor']; ?>">
             <h3><em><?php echo $y['place_name']; ?></em></h3>
           </div>
           <div data-simplebar class="container-scroll-x">
