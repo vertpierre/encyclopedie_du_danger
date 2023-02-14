@@ -1,12 +1,7 @@
-# Usable
+# Encyclopédie du Danger
+[Projet initié par](https://cargocollective.com/paulinebarzilai)
 
-Library of libre tools for creation.
+Workshop autour d’une collecte d’images devant aboutir à une édition collective autour du thème du Danger. Cette encyclopédie devait être imprimée en plsuieurs exemplaires, et un site web a été développé pour pouvoir la rendre accessible et pérenne.
 
-<!-- ## Useful links -->
-<!-- - [Issues](https://gitlab.com/esadhar/usable/issues) -->
-<!-- - [Tool list on the wiki](https://gitlab.com/esadhar/usable/wikis/liste-outils) -->
-<!-- - [Tool related issues](https://gitlab.com/esadhar/usable/issues?label_name=outil) -->
-
-## Context
-
-Fork from the work by the students of the Libre Design Laboratory of [ESADHaR](http://esadhar.fr/). This fork has been made for a workshop.
+Une première version a été réalisé à la [HEAR](https://www.hear.fr/)
+Ce site web a été réalisé suite à la seconde version créée au [DNMADE Prévert](https://dnmade-prevert.fr/)
