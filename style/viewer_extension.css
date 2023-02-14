@@ -335,3 +335,11 @@ html[dir="ltr"] .secondaryToolbar {
   left: 30px;
   text-decoration: underline;
 }
+
+.toolbarButtonSpacer,
+#sidebarToggle,
+#presentationMode,
+#openFile,
+#print {
+  display: none !important;
+}
